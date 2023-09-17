@@ -1,0 +1,52 @@
+{
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 1,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1694992617746,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Sum function"
+          ],
+          "fullName": " Sum function adds 1 + 2 to equal 3",
+          "status": "passed",
+          "title": "adds 1 + 2 to equal 3",
+          "duration": 1,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "Sum function"
+          ],
+          "fullName": " Sum function adds 0 + 2 to equal 3",
+          "status": "failed",
+          "title": "adds 0 + 2 to equal 3",
+          "duration": 10,
+          "failureMessages": [
+            "expected 2 to be 4 // Object.is equality"
+          ],
+          "location": {
+            "line": 10,
+            "column": 23
+          }
+        }
+      ],
+      "startTime": 1694992941690,
+      "endTime": 1694992941701,
+      "status": "failed",
+      "message": "",
+      "name": "C:/Users/berty/Desktop/projet/perso/sciredev/sciredev-exercice/exo1/main.test.js"
+    }
+  ]
+}
